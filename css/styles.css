@@ -59,3 +59,42 @@ html, body {
     padding-bottom: 30px;
     padding-top: 15px;
 }
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+    margin: 0.75em 0 0 0;
+}
+
+.main-footer h4 {
+    text-align: center;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0 0 0 0.50em;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.footer-nav li {
+    padding: 0 0.75em 0 0;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
